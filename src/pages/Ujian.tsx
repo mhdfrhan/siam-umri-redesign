@@ -104,7 +104,7 @@ export const Ujian: React.FC = () => {
             </div>
 
             <div className="divide-y divide-slate-50">
-               {ujianData.map((row, idx) => (
+               {ujianData.map((row) => (
                  <motion.div 
                    key={row.code}
                    className="group hover:bg-slate-50/50 transition-colors"

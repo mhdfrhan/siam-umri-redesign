@@ -4,12 +4,11 @@ import {
   Printer, 
   ChevronDown, 
   Search, 
-  FileCheck,
-  CheckCircle2,
-  Info,
-  Award,
-  BookOpen,
-  Mail,
+  CheckCircle2, 
+  Info, 
+  Award, 
+  BookOpen, 
+  Mail, 
   MoreHorizontal
 } from 'lucide-react';
 import { cn } from '../lib/utils';

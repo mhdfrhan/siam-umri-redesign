@@ -1,9 +1,7 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { 
   Wallet, 
   ChevronDown, 
-  Search, 
   CheckCircle2, 
   Clock, 
   TrendingUp, 
@@ -78,7 +76,7 @@ export const Pembayaran: React.FC = () => {
 
       {/* Main Billing Content */}
       <div className="space-y-4">
-        {paymentHistory.map((group, groupIdx) => (
+        {paymentHistory.map((group) => (
           <div key={group.ta} className="bg-white rounded-xl border border-slate-100 overflow-hidden card-shadow">
             {/* TA Header */}
             <div className="px-5 py-3 bg-brand-900 flex items-center justify-between">

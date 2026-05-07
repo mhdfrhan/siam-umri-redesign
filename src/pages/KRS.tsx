@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
-  ClipboardList, 
   MessageSquare, 
   Printer, 
   Info, 
@@ -13,7 +12,6 @@ import {
   ChevronDown,
   CalendarDays
 } from 'lucide-react';
-import { cn } from '../lib/utils';
 
 const krsData = [
   { 
@@ -127,7 +125,7 @@ export const KRS: React.FC = () => {
         </div>
 
         <div className="divide-y divide-slate-50">
-          {krsData.map((dayGroup, groupIdx) => (
+          {krsData.map((dayGroup) => (
             <React.Fragment key={dayGroup.day}>
               {dayGroup.courses.map((course, idx) => (
                 <motion.div 
