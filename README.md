@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# 🎓 SIAM UMRI Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, clean, and responsive redesign of the Sistem Informasi Akademik Mahasiswa (SIAM) for Universitas Muhammadiyah Riau (UMRI). Built with a focus on user experience, performance, and modern aesthetics.
 
-Currently, two official plugins are available:
+![Dashboard Preview](assets/dashboard.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **📊 Dynamic Dashboard**: Real-time overview of student academic status.
+- **📈 IPK Visualization**: Interactive charts for GPA tracking using Recharts.
+- **📅 Smart Schedule**: Daily lecture schedule with "Ongoing" and "Upcoming" indicators.
+- **⚡ Quick Access**: Fast shortcuts for KRS online, transcript downloads, and UKT payments.
+- **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
+- **📄 Academic Management**:
+  - Kartu Rencana Studi (KRS)
+  - Kartu Hasil Studi (KHS)
+  - Transkrip Nilai
+  - Jadwal Perkuliahan
+  - Riwayat Pembayaran
+  - Pengajuan Surat Mahasiswa
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 8](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion 12](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Routing**: [React Router 7](https://reactrouter.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Development
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (Latest LTS recommended)
+- npm or yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mhdfrhan/siam-umri-redesign.git
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+## 📝 License
+
+This project is created for educational and design exploration purposes.
+
+---
+
+Crafted with ❤️ by [mhdfrhan](https://github.com/mhdfrhan)
