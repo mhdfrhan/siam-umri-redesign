@@ -96,8 +96,8 @@ export const KRS: React.FC = () => {
       {/* Student Profile & Total SKS Unified */}
       <div className="bg-white rounded-xl border border-slate-100 p-4 card-shadow flex flex-wrap lg:flex-nowrap items-center gap-6">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2 flex-1">
-             <CompactInfoBox label="Mahasiswa" value="MUHAMMAD FARHAN" sub="230401089" />
-             <CompactInfoBox label="Dosen PA" value="Rahmad Firdaus, M.TI" sub="PA-04.01" />
+             <CompactInfoBox label="Mahasiswa" value="DUMMY STUDENT NAME" sub="123456789" />
+             <CompactInfoBox label="Dosen PA" value="LECTURER NAME, M.TI" sub="PA-04.01" />
              <CompactInfoBox label="Prodi" value="Teknik Informatika" sub="Semester 6" />
           </div>
           <div className="h-12 w-px bg-slate-100 hidden lg:block"></div>

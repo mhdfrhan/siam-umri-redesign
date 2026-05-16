@@ -33,16 +33,16 @@ export const StudentProfileCard: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
-        <InfoItem icon={User} label="Nama Lengkap" value="MUHAMMAD FARHAN" />
-        <InfoItem icon={Calendar} label="Tempat, Tgl Lahir" value="Pekanbaru, 04 Maret 2005" />
-        <InfoItem icon={User} label="NIM" value="230401089" />
+        <InfoItem icon={User} label="Nama Lengkap" value="DUMMY STUDENT NAME" />
+        <InfoItem icon={Calendar} label="Tempat, Tgl Lahir" value="CITY, 01 JANUARY 2000" />
+        <InfoItem icon={User} label="NIM" value="123456789" />
         
         <InfoItem icon={GraduationCap} label="Program Studi" value="Teknik Informatika" />
-        <InfoItem icon={Award} label="Dosen PA" value="Rahmad Firdaus, S.Kom., M.TI" />
+        <InfoItem icon={Award} label="Dosen PA" value="LECTURER NAME, S.Kom., M.T" />
         <InfoItem icon={GraduationCap} label="Kelas/Sistem" value="REGULER-A" />
 
-        <InfoItem icon={MapPin} label="Alamat" value="JL. BANDUNG GG.BANDUNG 1 NO.33" />
-        <InfoItem icon={Phone} label="Telepon" value="083173633639" />
+        <InfoItem icon={MapPin} label="Alamat" value="DUMMY ADDRESS ST. NO. 123" />
+        <InfoItem icon={Phone} label="Telepon" value="081234567890" />
         <InfoItem icon={Award} label="Beasiswa" value="Beasiswa Prestasi" />
       </div>
     </div>

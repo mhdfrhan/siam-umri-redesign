@@ -57,8 +57,8 @@ export const KHS: React.FC = () => {
 
       {/* Unified Profile - Consistent with KRS */}
       <div className="bg-white rounded-xl border border-slate-100 p-4 card-shadow grid grid-cols-2 lg:grid-cols-4 gap-6">
-          <CompactInfoBox label="Nama" value="MUHAMMAD FARHAN" sub="230401089" icon={Info} />
-          <CompactInfoBox label="Dosen PA" value="Rahmad Firdaus, M.TI" sub="PA-TIF" icon={Mail} />
+          <CompactInfoBox label="Nama" value="DUMMY STUDENT NAME" sub="123456789" icon={Info} />
+          <CompactInfoBox label="Dosen PA" value="LECTURER NAME, M.TI" sub="PA-TIF" icon={Mail} />
           <CompactInfoBox label="IP Semester" value="4.00" sub="Sangat Memuaskan" highlight />
           <CompactInfoBox label="Prodi" value="Teknik Informatika" sub="Semester 5" icon={BookOpen} />
       </div>

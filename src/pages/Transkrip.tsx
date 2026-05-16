@@ -61,11 +61,11 @@ export const Transkrip: React.FC = () => {
           <div className="space-y-3">
             <div className="flex justify-between items-center group">
               <span className="text-xs text-slate-500 font-medium">Nama Lengkap</span>
-              <span className="text-xs text-slate-800 font-bold uppercase transition-colors group-hover:text-brand-600">MUHAMMAD FARHAN</span>
+              <span className="text-xs text-slate-800 font-bold uppercase transition-colors group-hover:text-brand-600">DUMMY STUDENT NAME</span>
             </div>
             <div className="flex justify-between items-center group">
               <span className="text-xs text-slate-500 font-medium">Nomor Induk (NIM)</span>
-              <span className="text-xs text-slate-800 font-bold tracking-wider transition-colors group-hover:text-brand-600">230401089</span>
+              <span className="text-xs text-slate-800 font-bold tracking-wider transition-colors group-hover:text-brand-600">123456789</span>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ export const Transkrip: React.FC = () => {
             </div>
             <div className="flex justify-between items-center group">
               <span className="text-xs text-slate-500 font-medium">Dosen PA</span>
-              <span className="text-xs text-slate-800 font-bold transition-colors group-hover:text-brand-600">Rahmad Firdaus, S.Kom., M.TI</span>
+              <span className="text-xs text-slate-800 font-bold transition-colors group-hover:text-brand-600">LECTURER NAME, S.Kom., M.T</span>
             </div>
           </div>
         </div>

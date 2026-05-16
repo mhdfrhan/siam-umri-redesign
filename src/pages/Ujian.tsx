@@ -60,8 +60,8 @@ export const Ujian: React.FC = () => {
 
       {/* Profile Row Compact */}
       <div className="bg-white rounded-xl border border-slate-100 p-4 card-shadow grid grid-cols-2 lg:grid-cols-4 gap-6">
-          <CompactInfoBox label="Mahasiswa" value="MUHAMMAD FARHAN" sub="230401089" icon={Info} />
-          <CompactInfoBox label="Pembimbing" value="Rahmad Firdaus, M.TI" sub="TIF-PA" icon={Mail} />
+          <CompactInfoBox label="Mahasiswa" value="DUMMY STUDENT NAME" sub="123456789" icon={Info} />
+          <CompactInfoBox label="Pembimbing" value="LECTURER NAME, M.TI" sub="TIF-PA" icon={Mail} />
           <CompactInfoBox label="Kehadiran" value="95%" sub="Status Layak" icon={FileText} />
           <CompactInfoBox label="Prodi" value="Teknik Informatika" sub="TIF-S1" icon={BookOpen} />
       </div>

@@ -69,7 +69,7 @@ export const Jadwal: React.FC = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
          <CompactSummaryCard label="Total MK" value="8 Mata Kuliah" icon={BookOpen} />
          <CompactSummaryCard label="Beban SKS" value="23 SKS" icon={Layers} />
-         <CompactSummaryCard label="Dosen PA" value="Rahmad Firdaus" icon={User} />
+         <CompactSummaryCard label="Dosen PA" value="LECTURER NAME" icon={User} />
       </div>
 
       {/* Schedule Table Compact */}
